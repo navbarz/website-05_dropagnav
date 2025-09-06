@@ -1,30 +1,28 @@
 body{
     font-family:sans-serif;
 }
-
 h1{
     text-align: center;
 }
-
 .navbar ul{
-    list-style-type:none;
-    background-color:rgb(61, 216, 164);
-    padding:0px;
+    list-style-type: none;
+    background-color: bisque;
+    padding: 0px;
     margin:0px;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .navbar a{
-    text-decoration:none;
-    color:white;
+    text-decoration: none;
+    color:black;
     padding:20px;
-    text-align:center;
     display:block;
+    text-align: center;
+    font-size: 1.1em;
 }
 
 .navbar a:hover{
-    background-color: rgb(123, 236, 236);
-    transition: 0.2s ease-in-out;
+    background-color: rgb(243, 212, 174);
 }
 
 .navbar li{
